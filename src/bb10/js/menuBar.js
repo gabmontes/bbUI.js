@@ -146,6 +146,8 @@ bb.menuBar = {
 				div.innerHTML = caption;
 				bb10MenuItem.appendChild(div);
 
+				// Keep item id
+				bb10MenuItem.id = item.id;
 				// Assign any click handlers
 				bb10MenuItem.onclick	= item.onclick;
 				//set menu item width
